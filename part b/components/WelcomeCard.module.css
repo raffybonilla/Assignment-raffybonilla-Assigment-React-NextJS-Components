@@ -1,0 +1,23 @@
+.card {
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  width: 500px;
+  color: white;
+  background: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, pink, violet);
+  background-size: 400% 400%;
+  animation: gradientRainbow 8s ease infinite;
+}
+
+@keyframes gradientRainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
